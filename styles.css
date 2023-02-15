@@ -44,8 +44,10 @@ body {
 /* Navigation bar */
 
 nav {
-    height: 100%;
-    position: fixed;
+    /* height: 100%; */
+    height: auto;
+    /* position: fixed; */
+    position: absolute; 
     background-color: var(--light-color);
     margin: 0em;
     padding: 0em;
@@ -57,7 +59,9 @@ nav {
 /* personal picture */
 nav div.box {
     text-align: center;
-    margin-top: 2rem; /* space above the picture */
+    width: fit-content;
+    /* width: 20rem; */
+    /* object-position: center; */
 }
 
 nav p.name {
@@ -110,8 +114,8 @@ nav ul li:hover {
 
 nav div img { 
     max-width: 100%; 
-    border: 0.4rem dotted var(--link-color);
-    border-top-right-radius: 2em 20%;
+    /* border: 0.4rem dotted var(--link-color);
+    border-top-right-radius: 2em 20%; */
 }
 
 /* Styling the lists */
