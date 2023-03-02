@@ -7,7 +7,7 @@
 /* Colors and variables (to be called with attribute: var(--name-of-variable); */
 :root {
     /* colors */
-    --main-color: #eee; /* background of the pages */
+    --main-color: #eee; /* background of the pags */
     --light-color: #ddd; /* background of the navigation bar */
     --light-color-hover: #bbf; /* color of the navigation items when hovered on (?) */
     --link-color: #22a; /* color of the links and the navigation items */
