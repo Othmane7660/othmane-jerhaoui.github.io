@@ -23,6 +23,9 @@
 		},
 		{
 			"path": "."
+		},
+		{
+			"path": "../../Desktop/learn_to_code"
 		}
 	],
 	"settings": {
